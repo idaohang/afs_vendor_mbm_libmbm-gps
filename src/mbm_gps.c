@@ -1358,7 +1358,7 @@ static struct hw_module_methods_t mbm_gps_module_methods = {
     .open = mbm_open_gps
 };
 
-const struct hw_module_t HAL_MODULE_INFO_SYM = {
+struct hw_module_t HAL_MODULE_INFO_SYM = {
     .tag = HARDWARE_MODULE_TAG,
     .version_major = 1,
     .version_minor = 0,
